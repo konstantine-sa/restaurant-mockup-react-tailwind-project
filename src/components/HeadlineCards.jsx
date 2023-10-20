@@ -2,7 +2,7 @@ import HeadlineCard from "./HeadlineCard";
 
 function HeadlineCards() {
   return (
-    <div className="max-w-[1640px]  mx-auto p-4 py-12 grid md:grid-cols-3 gap-6">
+    <div className="max-w-[1640px]  mx-auto p-4 pt-12 grid md:grid-cols-3 gap-6">
       <HeadlineCard
         title="Burger"
         text="Die besten Burger in der Stadt"

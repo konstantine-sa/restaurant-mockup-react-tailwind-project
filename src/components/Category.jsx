@@ -2,8 +2,8 @@ import { categories } from "../data/data";
 
 function Category() {
   return (
-    <div className="max-w-[1640px] m-auto px-4 py-12 ">
-      <h1 className="text-orange-600 font-bold text-4xl text-center">
+    <div className="max-w-[1640px] m-auto px-4 py-6 sm:py-12  ">
+      <h1 className="text-orange-600 font-bold text-4xl text-center mb-6 sm:mb-8">
         Bestbewertete Menüpunkte
       </h1>
 
