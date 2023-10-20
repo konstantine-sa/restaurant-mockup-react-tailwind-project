@@ -8,3 +8,10 @@
     @apply border border-black rounded-xl px-5 py-1;
   }
 }
+
+/* removing tap highlight on mob. devices */
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
