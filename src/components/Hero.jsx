@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className="max-w-[1640] mx-auto p-4">
+    <div className="max-w-[1640] mx-auto ">
       <div className="max-h-[500px] relative">
         {/* overlay */}
         <div className="absolute w-full h-full text-gray-200 max-h-[500px] bg-black/50 flex flex-col justify-start z-[2]">

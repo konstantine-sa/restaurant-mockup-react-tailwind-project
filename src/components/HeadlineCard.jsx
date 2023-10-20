@@ -3,7 +3,7 @@ import React from "react";
 function HeadlineCard({ title, text, imgURL }) {
   return (
     <div>
-      <div className="rounded-xl relative select-none  hover:shadow-xl">
+      <div className="rounded-xl relative select-none">
         {/* Overlay */}
         <div className="flex flex-col items-center absolute w-full h-full bg-black/50 rounded-xl text-white ">
           <p className="font-bold text-2xl px-2 pt-4 ">{title}</p>
